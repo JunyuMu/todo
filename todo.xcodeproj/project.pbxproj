@@ -14,6 +14,9 @@
 		F205A6912884296D00C9BF0B /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A6902884296D00C9BF0B /* todoTests.swift */; };
 		F205A69B2884296D00C9BF0B /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A69A2884296D00C9BF0B /* todoUITests.swift */; };
 		F205A69D2884296D00C9BF0B /* todoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A69C2884296D00C9BF0B /* todoUITestsLaunchTests.swift */; };
+		F205A6AA2884349B00C9BF0B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A6A92884349B00C9BF0B /* Todo.swift */; };
+		F205A6AC28843D8900C9BF0B /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A6AB28843D8900C9BF0B /* TodoView.swift */; };
+		F205A6AE2884530400C9BF0B /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205A6AD2884530400C9BF0B /* TodosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F205A6962884296D00C9BF0B /* todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F205A69A2884296D00C9BF0B /* todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITests.swift; sourceTree = "<group>"; };
 		F205A69C2884296D00C9BF0B /* todoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F205A6A92884349B00C9BF0B /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F205A6AB28843D8900C9BF0B /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		F205A6AD2884530400C9BF0B /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				F205A6812884296B00C9BF0B /* ContentView.swift */,
 				F205A6832884296D00C9BF0B /* Assets.xcassets */,
 				F205A6852884296D00C9BF0B /* Preview Content */,
+				F205A6A92884349B00C9BF0B /* Todo.swift */,
+				F205A6AB28843D8900C9BF0B /* TodoView.swift */,
+				F205A6AD2884530400C9BF0B /* TodosView.swift */,
 			);
 			path = todo;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F205A6AE2884530400C9BF0B /* TodosView.swift in Sources */,
 				F205A6822884296B00C9BF0B /* ContentView.swift in Sources */,
+				F205A6AA2884349B00C9BF0B /* Todo.swift in Sources */,
+				F205A6AC28843D8900C9BF0B /* TodoView.swift in Sources */,
 				F205A6802884296B00C9BF0B /* todoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
